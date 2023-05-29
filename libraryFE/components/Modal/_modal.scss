@@ -1,0 +1,27 @@
+.modal-folder{
+  z-index: 9999;
+  background-color: rgba(0,0,0,.6);
+}
+
+.hide{
+  display: none;
+}
+
+.b-btn {
+  padding: 12px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 12px;
+  min-width: 32px;
+    font-weight: 600;
+}
+
+.b-btn--ghost:hover {
+   color: #5506fd; 
+   background-color: #d1bcff; 
+}
+
+.b-btn--ghost{
+  color: #333;
+  background-color: transparent;
+}

@@ -1,0 +1,51 @@
+.fsxs, .tsxs {
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.tuclp, .tuels {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #5506fd;
+}
+
+.wrap-item{
+  width: 99%;
+}
+ 
+.fsxl, .tsxl {
+  font-size: 18px;
+  line-height: 1.3636363636;
+}
+
+.answer{
+  border-radius: 16px;
+  background-color: #f8f8f8;
+  max-width: calc(100% + 8px);
+  margin-right: -4px;
+  margin-left: -4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-xs>*, .rxs>* {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.c12, .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.response-collapse{
+  max-height: 100px;
+  overflow: hidden;
+}
